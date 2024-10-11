@@ -1,0 +1,9 @@
+#!r6rs ; -*- mode: scheme; coding: utf-8 -*-
+(import (akku format manifest))
+
+(akku-package ("srfi-180" "1.0.0-alpha.0")
+  (synopsis "SRFI-180, a JSON library")
+  (authors "ufo")
+  (license "MIT")
+  (depends ("chez-srfi" ">=0.0.0-akku <1.0.0"))
+)
