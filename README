@@ -1,0 +1,6 @@
+# Overview
+
+This package is a dependable thread pool package for [SRFI-180 JSON](https://github.com/scheme-requests-for-implementation/srfi-180). I hacked it a Chez Scheme version.
+a-sync(https://github.com/ChrisVine/chez-a-sync) and simplified it. And my purpose is making this library easily imported into other code.
+
+This package has been tested with Chez Scheme versions 10.0.0.
